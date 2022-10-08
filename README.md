@@ -1,8 +1,7 @@
 ## QSQLCIPHER
 
 SQLCipher/sqlite plugin for Qt6 projects.
-Based on original CMakeLists.txt`s from Qt 6.3.0 srcs (from sqldrivers and sqlite3 folders) with minimal changes/additions
-Checked on Visual Studio 2022 projects. Project uses OpenSSL x64 static libraries built for Visual Studio. If you need another libraries you should change CMakeLists.txt
+Based on original CMakeLists.txt`s from Qt 6.3.0 srcs (from sqldrivers and sqlite3 folders) with minimal changes/additions. Checked on Visual Studio 2022 projects. Project uses OpenSSL x64 static libraries built for Visual Studio. If you need another libraries you should change CMakeLists.txt
 
 ### Prerequisites
 
