@@ -40,7 +40,7 @@ So, now you can use your plugin
 
 ```cpp
   auto db{QSqlDatabase::addDatabase("QSQLCIPHER")};
-  db.setDatabaseName(dir->absoluteFilePath(DBNAME));
+  db.setDatabaseName("encrypted.db");
 	
   if (!db.open())
     return {};
