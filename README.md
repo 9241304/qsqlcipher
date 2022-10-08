@@ -24,14 +24,14 @@ Checked on Visual Studio 2022 projects. Project uses OpenSSL x64 static librarie
 ```
 6. Configure the project (use your paths and keywords instead of example). Make sure all paths use '/' slash
 ```
-cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_INSTALL_PREFIX=../.install -DCMAKE_DEBUG_POSTFIX=d -DQt6_DIR=c:/Qt/6.3.0/msvc2019_64 -DSQLITE3_SRC_AM_DIR=c:/SDK/sqlcipher-4.5.2/.am -DPLUGIN_TYPE=sqlcipher -DOPENSSL_INSTALL_DIR=c:/SDK/openssl/1.1.1m/OpenSSL-Win64
+> cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_INSTALL_PREFIX=../.install -DCMAKE_DEBUG_POSTFIX=d -DQt6_DIR=c:/Qt/6.3.0/msvc2019_64 -DSQLITE3_SRC_AM_DIR=c:/SDK/sqlcipher-4.5.2/.am -DPLUGIN_TYPE=sqlcipher -DOPENSSL_INSTALL_DIR=c:/SDK/openssl/1.1.1m/OpenSSL-Win64
 ```
 7. Build and install
 ```
-cmake --build . --config Debug
-cmake --build . --config RelWithDebInfo
-cmake --install . --config Debug
-cmake --install . --config RelWithDebInfo
+> cmake --build . --config Debug
+> cmake --build . --config RelWithDebInfo
+> cmake --install . --config Debug
+> cmake --install . --config RelWithDebInfo
 ```
 ### Usage
 
