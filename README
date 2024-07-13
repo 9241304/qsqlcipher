@@ -1,6 +1,5 @@
-You will need the SQLite development headers and libraries installed
-before compiling this plugin.
+Please note that the DB2, MySQL and Oracle client drivers are not
+distributed with the Qt Open Source Editions.
 
-See the Qt SQL documentation for more information on compiling Qt SQL
-driver plugins (sql-driver.html).
-
+This is because the client libraries are distributed under a license which
+is not compatible with the GPL license.

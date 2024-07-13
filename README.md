@@ -1,7 +1,7 @@
 ## QSQLCIPHER
 
 SQLCipher/sqlite plugin for Qt6 projects.
-Based on original CMakeLists.txt`s from Qt 6.3.0 srcs (from sqldrivers and sqlite3 folders) with minimal changes/additions. Checked on Visual Studio 2022 projects. Project uses OpenSSL x64 static libraries built for Visual Studio. If you need another libraries you should change CMakeLists.txt
+Based on original CMakeLists.txt`s from Qt 6.7.2 srcs (from sqldrivers and sqlite3 folders) with minimal changes/additions. Checked on Visual Studio 2022 projects. Project uses OpenSSL x64 static libraries built for Visual Studio. If you need another libraries you should change CMakeLists.txt
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ Based on original CMakeLists.txt`s from Qt 6.3.0 srcs (from sqldrivers and sqlit
 ```
 6. Configure the project (use your paths and keywords instead of example). Make sure all paths use '/' slash
 ```
-> cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_INSTALL_PREFIX=../.install -DCMAKE_DEBUG_POSTFIX=d -DQt6_DIR=c:/Qt/6.3.0/msvc2019_64 -DSQLITE3_SRC_AM_DIR=c:/SDK/sqlcipher-4.5.2/.am -DPLUGIN_TYPE=sqlcipher -DOPENSSL_INSTALL_DIR=c:/SDK/openssl/1.1.1m/OpenSSL-Win64
+> cmake .. -G "Visual Studio 17 2022" -A x64 -DCMAKE_INSTALL_PREFIX=../.install -DCMAKE_DEBUG_POSTFIX=d -DQt6_DIR=c:/Qt/6.7.2/msvc2019_64/lib/cmake/Qt6 -DSQLITE3_SRC_AM_DIR=d:/proj/sqlcipher/.am -DOPENSSL_INSTALL_DIR=c:/SDK/openssl/1.1.1m/OpenSSL-Win64
 ```
 7. Build and install
 ```
